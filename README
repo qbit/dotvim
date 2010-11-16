@@ -1,13 +1,16 @@
 Switching my vim stuff to use pathogen
 
 Get: 
-git clone git@github.com:qbit/dotvim.git
+	git clone git@github.com:qbit/dotvim.git ~/.vim
+	cd ~/.vim
+	git submodule init
+	git submodule update
 
 Update bundles: 
-cd .vim/bundle
-for i in `ls`; do
-	( cd $i ; git pull ) 
-done
+	cd .vim/bundle
+	for i in `ls`; do
+		( cd $i ; git pull ) 
+	done
 
 
 256colors.pl:
