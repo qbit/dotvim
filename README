@@ -1,0 +1,14 @@
+Switching my vim stuff to use pathogen
+
+Get: 
+git clone git@github.com:qbit/dotvim.git
+
+Update bundles: 
+cd .vim/bundle
+for i in `ls`; do
+	( cd $i ; git pull ) 
+done
+
+
+256colors.pl:
+	used to test for 256 colors in a terminal
