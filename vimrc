@@ -1,7 +1,7 @@
 if has('syntax')
 	set t_Co=256
 	syntax on
-	colorscheme inkpot
+	colorscheme inkpot_converted
 	let g:inkpot_black_background = 1
 endif
 
