@@ -6,12 +6,5 @@ Get:
 	git submodule init
 	git submodule update
 
-Update bundles: 
-	cd .vim/bundle
-	for i in `ls`; do
-		( cd $i ; git pull ) 
-	done
-
-
 256colors.pl:
 	used to test for 256 colors in a terminal
