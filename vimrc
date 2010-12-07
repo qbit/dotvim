@@ -20,7 +20,7 @@ set mouse-=a
 set textwidth=78
 
 if ( v:version >= 700 ) 
-"	set listchars=tab:▸\ ,eol:¬
+	set listchars=tab:▸\ ,eol:¬
 endif
 
 set ts=4 sts=4 sw=4 noexpandtab
