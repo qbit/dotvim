@@ -45,9 +45,9 @@ noremap <Right> <NOP>
 noremap <Up>    <NOP>
 noremap <Down>  <NOP>
 
-function! ErlPretty()
-    silent !erl -noshell -eval 'erl_tidy:file("%",[verbose]).' -s erlang halt
-endfunction
+" function! ErlPretty()
+"     silent !erl -noshell -eval 'erl_tidy:file("%",[verbose]).' -s erlang halt
+" endfunction
 
 function ModeChange()
 	if getline(1) =~ "^#!/"
