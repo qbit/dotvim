@@ -90,7 +90,6 @@ function! s:CopyMatches(line1, line2, reg)
   endif
 endfunction
 
-
 "nmap ep :execute ErlPretty()
 
 au BufWritePost * call ModeChange()
