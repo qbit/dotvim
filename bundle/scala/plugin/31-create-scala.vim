@@ -24,7 +24,6 @@ function! MakeScalaFile()
     let p = substitute(p, "^!.*\.ru\.", "!ru.", "")
     let p = substitute(p, "^!.*\.org\.", "!org.", "")
     let p = substitute(p, "^!.*\.com\.", "!com.", "")
-    
     " ! marks that we found package name.
     if match(p, "^!") == 0
         let p = substitute(p, "^!", "", "")
