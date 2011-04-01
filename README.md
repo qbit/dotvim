@@ -6,7 +6,7 @@
 
 ### Get the repo and init it
 
-	git clone git@github.com:qbit/dotvim.git ~/.vim
+	git clone git://github.com/qbit/dotvim.git ~/.vim
 	cd ~/.vim
 	git submodule init
 	git submodule update
@@ -23,3 +23,4 @@
 - [liftweb](https://github.com/Shadowfiend/liftweb-vim)
 - [syntastic]( https://github.com/scrooloose/syntastic/)
 - [vim-distinguished](https://github.com/Lokaltog/vim-distinguished)
+- [current-func-info](https://github.com/tyru/current-func-info.vim)
