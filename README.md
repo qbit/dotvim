@@ -12,10 +12,14 @@
 	git submodule update
 
 ## SubModules:
-- [JSLint](https://github.com/hallettj/jslint.vim)
-- [NERDTree](https://github.com/scrooloose/nerdtree)
-- [perlomni](https://github.com/vim-scripts/perlomni.vim)
-- [snipMate](https://github.com/msanders/snipmate.vim)
-- [tComment](https://github.com/vim-scripts/tComment)
-- [vimwiki](http://code.google.com/p/vimwiki/) 
-- [distinguished](https://github.com/Lokaltog/vim-distinguished)
+
+- [tComment](http://github.com/vim-scripts/tComment)
+- [jslint](https://github.com/hallettj/jslint.vim)
+- [nerdtree](https://github.com/scrooloose/nerdtree)
+- [perlomni](https://github.com/c9s/perlomni.vim)
+- [snipmate](https://github.com/msanders/snipmate.vim)
+- [VimOrganizer](https://github.com/hsitz/VimOrganizer)
+- [mojovim"](https://github.com/yko/mojo.vim)
+- [liftweb](https://github.com/Shadowfiend/liftweb-vim)
+- [syntastic]( https://github.com/scrooloose/syntastic/)
+- [vim-distinguished](https://github.com/Lokaltog/vim-distinguished)
