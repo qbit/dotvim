@@ -22,3 +22,9 @@
 [submodule "bundle/liftweb"]
 	path = bundle/liftweb
 	url = https://github.com/Shadowfiend/liftweb-vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic/
+[submodule "bundle/vim-distinguished"]
+	path = bundle/vim-distinguished
+	url = git://github.com/Lokaltog/vim-distinguished.git
