@@ -72,9 +72,7 @@ au BufNewFile *.html 0read ~/.vim/skel/skel.html
 au BufNewFile *.pl 0read ~/.vim/skel/skel.pl
 au BufNewFile *.go 0read ~/.vim/skel/skel.go
 
-nmap <leader>p :!perl -Wc %<C-M>
 nmap <leader>l :set wrap!<CR>
-nmap <leader>h :Vimwiki2HTML<CR>
 nmap <leader>s :set spell!<CR>
 nmap <leader>1 :NERDTree<CR>
 nmap <leader>2 :set list!<CR>
