@@ -14,7 +14,6 @@
 ## SubModules:
 
 - [tComment](http://github.com/vim-scripts/tComment)
-- [jslint](https://github.com/hallettj/jslint.vim)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [perlomni](https://github.com/c9s/perlomni.vim)
 - [snipmate](https://github.com/msanders/snipmate.vim)
