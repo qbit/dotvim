@@ -3,22 +3,24 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+" Color
 if has('syntax')
 	if &t_Co == 256
 		syntax on
 		colo inkpot_converted
-		let g:inkpot_black_background = 1
+		" colo inkpot
+		let g:inkpot_black_background = 0
 		" colo distinguished
 	else 
 		colo pablo
 	endif
 endif
 
-"File type stuff
-
+" File type stuff
 filetype indent on
 filetype plugin on
 
+" Options
 set nolist
 set visualbell
 set mouse-=a
@@ -31,7 +33,7 @@ endif
 set ts=4 sts=4 sw=4 noexpandtab
 set nocompatible
 set laststatus=2
-set statusline=%<%f\%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
+set statusline=%<%f%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
 set hlsearch
 set incsearch
 set showmatch
@@ -52,10 +54,13 @@ let g:NERDTreeCaseSensitiveSort = 1
 let g:NERDTreeQuietOnOpen = 1
 let g:NERDTreeShowBookmarks = 1 
 
+" Commands
 command! -bar -nargs=0 W  silent! exec "write !sudo tee % >/dev/null"  | silent! edit!
 
 " NO MORE MOOSE! YAY!
 nmap <silent> ,/ :let @/=""<CR>
+
+nnoremap <silent> <leader>g :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 
 "Fuck up the nubs
 noremap <Left>  <NOP>

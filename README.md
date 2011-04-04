@@ -24,3 +24,4 @@
 - [syntastic]( https://github.com/scrooloose/syntastic/)
 - [vim-distinguished](https://github.com/Lokaltog/vim-distinguished)
 - [current-func-info](https://github.com/tyru/current-func-info.vim)
+- [fugitive](https://github.com/tpope/vim-fugitive)
