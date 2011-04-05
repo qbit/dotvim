@@ -17,7 +17,6 @@
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [perlomni](https://github.com/c9s/perlomni.vim)
 - [snipmate](https://github.com/msanders/snipmate.vim)
-- [VimOrganizer](https://github.com/hsitz/VimOrganizer)
 - [mojovim](https://github.com/yko/mojo.vim)
 - [liftweb](https://github.com/Shadowfiend/liftweb-vim)
 - [syntastic]( https://github.com/scrooloose/syntastic/)
