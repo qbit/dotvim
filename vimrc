@@ -21,6 +21,7 @@ filetype indent on
 filetype plugin on
 
 " Options
+set dir=~/.vim/swaps
 set nolist
 set visualbell
 set mouse-=a
