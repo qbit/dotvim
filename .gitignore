@@ -1,5 +1,6 @@
 /*
 !/.gitignore
+!/.gitmodules
 !/256colors2.pl
 !/autoload
 !/bundle
@@ -7,8 +8,6 @@
 !/indent
 !/README.md
 !/skel
-
 !/swaps
 /swaps/*
-
 !/vimrc
