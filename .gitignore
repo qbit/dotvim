@@ -1,5 +1,11 @@
 /*
 
+!/swaps
+/swaps/*
+
+!/bundle/
+/bundle/*
+
 !/.gitignore
 !/.gitmodules
 !/256colors2.pl
@@ -12,8 +18,3 @@
 !/vimrc
 !/create_links
 
-!/swaps
-/swaps/*
-
-!/bundle/
-/bundle/*
