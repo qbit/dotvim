@@ -1,4 +1,5 @@
 /*
+
 !/.gitignore
 !/.gitmodules
 !/256colors2.pl
@@ -8,8 +9,11 @@
 !/README.md
 !/modules
 !/skel
-!/swaps
-/bundle/*
-/swaps/*
 !/vimrc
 !/create_links
+
+!/swaps
+/swaps/*
+
+!/bundle/
+/bundle/*
