@@ -9,6 +9,7 @@
 !/modules
 !/skel
 !/swaps
+/bundle/*
 /swaps/*
 !/vimrc
 !/create_links
