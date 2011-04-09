@@ -26,3 +26,5 @@
 
 ## Other Scripts
 - [increment](http://www.vim.org/scripts/script.php?script_id=842)
+- [scala](http://www.google.com)
+- [vimwiki](http://code.google.com/p/vimwiki/)
