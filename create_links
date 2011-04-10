@@ -6,6 +6,6 @@ rm ${BASE}/bundle/*
 
 for module_dir in `ls ${BASE}/modules`; do
 	for module in `ls ${BASE}/modules/${module_dir}`; do
-		ln -sT ${BASE}/modules/${module_dir}/${module} ${BASE}/bundle/${module}
+		ln -s ${BASE}/modules/${module_dir}/${module} ${BASE}/bundle/${module}
 	done
 done
