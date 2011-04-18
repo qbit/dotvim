@@ -34,3 +34,6 @@
 [submodule "modules/colorschemes/vim-pigraph"]
 	path = modules/colorschemes/vim-pigraph
 	url = https://github.com/fmeyer/vim-pigraph.git
+[submodule "modules/colorschemes/solarized"]
+	path = modules/colorschemes/solarized
+	url = https://github.com/altercation/vim-colors-solarized
