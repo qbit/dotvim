@@ -1,24 +1,39 @@
-[submodule "bundle/tComment"]
-	path = bundle/tComment
+[submodule "modules/plugins/tComment"]
+	path = modules/plugins/tComment
 	url = git://github.com/vim-scripts/tComment.git
-[submodule "bundle/jslint"]
-	path = bundle/jslint
-	url = git://github.com/hallettj/jslint.vim.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "modules/plugins/nerdtree"]
+	path = modules/plugins/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "bundle/perlomni"]
-	path = bundle/perlomni
+[submodule "modules/plugins/perlomni"]
+	path = modules/plugins/perlomni
 	url = git://github.com/c9s/perlomni.vim.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
+[submodule "modules/plugins/snipmate"]
+	path = modules/plugins/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
-[submodule "bundle/VimOrganizer"]
-	path = bundle/VimOrganizer
-	url = https://github.com/hsitz/VimOrganizer.git
-[submodule "bundle/mojovim"]
-	path = bundle/mojovim
+[submodule "modules/plugins/mojovim"]
+	path = modules/plugins/mojovim
 	url = https://github.com/yko/mojo.vim.git
-[submodule "bundle/liftweb"]
-	path = bundle/liftweb
+[submodule "modules/plugins/liftweb"]
+	path = modules/plugins/liftweb
 	url = https://github.com/Shadowfiend/liftweb-vim.git
+[submodule "modules/plugins/syntastic"]
+	path = modules/plugins/syntastic
+	url = https://github.com/scrooloose/syntastic/
+[submodule "modules/colorschemes/vim-distinguished"]
+	path = modules/colorschemes/vim-distinguished
+	url = git://github.com/Lokaltog/vim-distinguished.git
+[submodule "modules/plugins/current-func-info"]
+	path = modules/plugins/current-func-info
+	url = https://github.com/tyru/current-func-info.vim
+[submodule "modules/plugins/fugitive"]
+	path = modules/plugins/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "modules/plugins/vim-orgmode"]
+	path = modules/plugins/vim-orgmode
+	url = git://github.com/jceb/vim-orgmode.git
+[submodule "modules/colorschemes/vim-pigraph"]
+	path = modules/colorschemes/vim-pigraph
+	url = https://github.com/fmeyer/vim-pigraph.git
+[submodule "modules/colorschemes/solarized"]
+	path = modules/colorschemes/solarized
+	url = https://github.com/altercation/vim-colors-solarized
