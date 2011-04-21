@@ -17,7 +17,7 @@ filetype plugin on
 set nolist
 set visualbell
 set mouse-=a
-set textwidth=78
+set textwidth=72
 
 if ( v:version >= 700 ) 
 	set listchars=tab:▸\ ,eol:¬
