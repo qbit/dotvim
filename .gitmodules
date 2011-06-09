@@ -37,3 +37,9 @@
 [submodule "modules/colorschemes/solarized"]
 	path = modules/colorschemes/solarized
 	url = https://github.com/altercation/vim-colors-solarized
+[submodule "modules/plugins/vim-jade"]
+	path = modules/plugins/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "modules/colorschemes/vim-mustang"]
+	path = modules/colorschemes/vim-mustang
+	url = https://github.com/marcus/vim-mustang.git
