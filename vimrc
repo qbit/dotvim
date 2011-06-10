@@ -21,7 +21,7 @@ filetype indent on
 filetype plugin on
 
 " Options
-set dir=~/.vim/swaps
+"set dir=~/.vim/swaps
 set nolist
 set visualbell
 set mouse-=a
@@ -34,7 +34,8 @@ endif
 set ts=4 sts=4 sw=4 noexpandtab
 set nocompatible
 set laststatus=2
-set statusline=%<%f%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
+"set statusline=%<%f%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
+set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=line:%l,col:%c\ %P
 set hlsearch
 set incsearch
 set showmatch
