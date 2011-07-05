@@ -43,3 +43,6 @@
 [submodule "modules/colorschemes/vim-mustang"]
 	path = modules/colorschemes/vim-mustang
 	url = https://github.com/marcus/vim-mustang.git
+[submodule "modules/plugins/vim-javascript"]
+	path = modules/plugins/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
