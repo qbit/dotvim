@@ -80,3 +80,7 @@ nmap <leader>1 :NERDTree<CR>
 nmap <leader>2 :set list!<CR>
 nmap <leader>3 :set nu!<CR>
 nmap <leader>4 :set paste!<CR>
+
+if has("autocmd")
+	au BufRead,BufNewFile *.ejs setfiletype html
+endif
