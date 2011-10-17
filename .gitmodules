@@ -19,9 +19,6 @@
 [submodule "modules/plugins/syntastic"]
 	path = modules/plugins/syntastic
 	url = https://github.com/scrooloose/syntastic/
-[submodule "modules/colorschemes/vim-distinguished"]
-	path = modules/colorschemes/vim-distinguished
-	url = git://github.com/Lokaltog/vim-distinguished.git
 [submodule "modules/plugins/current-func-info"]
 	path = modules/plugins/current-func-info
 	url = https://github.com/tyru/current-func-info.vim
