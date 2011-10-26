@@ -43,3 +43,6 @@
 [submodule "modules/plugins/vim-javascript"]
 	path = modules/plugins/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "modules/plugins/coffee-script"]
+	path = modules/plugins/coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
