@@ -1,4 +1,6 @@
-/swaps/*
-/bundle/*
+swaps/*
+!swaps/.include
+bundle/*
+!bundle/.include
 .netrwhist
 .DS_Store
