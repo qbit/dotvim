@@ -2,7 +2,11 @@
 
 BASE=~/.vim
 
-rm ${BASE}/bundle/*
+if [ -d ${BASE}/bundle ]; then
+	rm ${BASE}/bundle/*
+else 
+	mkdir ${BASE}/bundle
+fi
 
 for module_dir in `ls ${BASE}/modules`; do
 	for module in `ls ${BASE}/modules/${module_dir}`; do
