@@ -84,4 +84,5 @@ nmap <leader>4 :set paste!<CR>
 
 if has("autocmd")
 	au BufRead,BufNewFile *.ejs setfiletype html
+	au BufRead,BufNewFile *.pde setfiletype arduino
 endif
