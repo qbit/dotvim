@@ -1,11 +1,17 @@
+if version < 7300
+	let s:bundles = tr(globpath(&runtimepath, 'bundle/*/'), "\n", ',')
+	let s:afters = tr(globpath(s:bundles, 'after/'), "\n", ',')
+	let &runtimepath = join([s:bundles, &runtimepath, s:afters], ',')
+endif
+
 call pathogen#infect()
 
 " Color
 if has('syntax')
 	if &t_Co == 256
 		syntax on
-		colo inkpot_converted
-		" colo inkpot
+		" colo inkpot_converted
+		colo inkpot
 		let g:inkpot_black_background = 0
 		" colo distinguished
 	else 
