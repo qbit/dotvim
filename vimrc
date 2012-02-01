@@ -10,10 +10,9 @@ call pathogen#infect()
 if has('syntax')
 	if &t_Co == 256
 		syntax on
-		" colo inkpot_converted
-		colo inkpot
-		let g:inkpot_black_background = 0
-		" colo distinguished
+		colorscheme BusyBee
+		" colo inkpot
+		" let g:inkpot_black_background = 0
 	else 
 		colo pablo
 	endif

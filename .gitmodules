@@ -46,3 +46,6 @@
 [submodule "modules/plugins/coffee-script"]
 	path = modules/plugins/coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "modules/plugins/csapprox"]
+	path = modules/plugins/csapprox
+	url = https://github.com/godlygeek/csapprox.git
