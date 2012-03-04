@@ -7,9 +7,6 @@
 [submodule "modules/plugins/perlomni"]
 	path = modules/plugins/perlomni
 	url = git://github.com/c9s/perlomni.vim.git
-[submodule "modules/plugins/snipmate"]
-	path = modules/plugins/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
 [submodule "modules/plugins/mojovim"]
 	path = modules/plugins/mojovim
 	url = https://github.com/yko/mojo.vim.git

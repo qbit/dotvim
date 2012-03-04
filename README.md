@@ -16,7 +16,6 @@
 - [tComment](http://github.com/vim-scripts/tComment)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [perlomni](https://github.com/c9s/perlomni.vim)
-- [snipmate](https://github.com/msanders/snipmate.vim)
 - [mojovim](https://github.com/yko/mojo.vim)
 - [liftweb](https://github.com/Shadowfiend/liftweb-vim)
 - [syntastic]( https://github.com/scrooloose/syntastic/)
