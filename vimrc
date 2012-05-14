@@ -12,13 +12,16 @@ nmap <Leader>bc :BundleClean<CR>
 
 Bundle 'gmarik/vundle'
 
+Bundle 'tComment'
+Bundle 'current-func-info.vim'
+Bundle 'vim-json-bundle'
+
 Bundle 'tpope/vim-fugitive'
-Bundle 'vim-scripts/tComment'
+
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
-Bundle 'vim-scripts/current-func-info.vim'
+
 Bundle 'kien/ctrlp.vim'
-Bundle 'vim-scripts/vim-json-bundle'
 
 " Color
 if has('syntax')
