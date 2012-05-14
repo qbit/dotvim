@@ -1,10 +1,23 @@
-if version < 7300
-	let s:bundles = tr(globpath(&runtimepath, 'bundle/*/'), "\n", ',')
-	let s:afters = tr(globpath(s:bundles, 'after/'), "\n", ',')
-	let &runtimepath = join([s:bundles, &runtimepath, s:afters], ',')
-endif
+set nocompatible
+filetype off
 
-call pathogen#infect()
+set rtp+=~/.vim/bundle/vundle/
+
+call vundle#rc()
+
+nmap <Leader>bi :BundleInstall<CR>
+nmap <Leader>bi! :BundleInstall!<CR>
+nmap <Leader>bu :BundleInstall!<CR>
+nmap <Leader>bc :BundleClean<CR>
+
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-fugitive'
+Bundle 'vim-scripts/tComment'
+Bundle 'scrooloose/syntastic'
+Bundle 'vim-scripts/current-func-info.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'vim-scripts/vim-json-bundle'
 
 " Color
 if has('syntax')
@@ -35,7 +48,6 @@ if ( v:version >= 700 )
 endif
 
 set ts=4 sts=4 sw=4 noexpandtab
-set nocompatible
 set laststatus=2
 "set statusline=%<%f%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
 set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=line:%l,col:%c\ %P

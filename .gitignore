@@ -1,6 +1,7 @@
 swaps/*
 !swaps/.include
 bundle/*
+!bundle/vundle
 !bundle/.include
 .netrwhist
 .DS_Store
