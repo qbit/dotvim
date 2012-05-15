@@ -64,8 +64,9 @@ set scrolloff=10
 
 " Syntastic
 let g:syntastic_enable_signs = 1
+let g:syntastic_check_on_open = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_jslint_conf = " --forin"
+let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap "
 
 " NerdTree
 let g:NERDTreeChristmasTree = 1
