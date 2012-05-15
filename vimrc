@@ -37,8 +37,7 @@ if has('syntax')
 endif
 
 " File type stuff
-filetype indent on
-filetype plugin on
+filetype indent plugin on
 
 " Options
 set dir=~/.vim/swaps
@@ -68,6 +67,7 @@ set scrolloff=10
 " Syntastic
 let g:syntastic_enable_signs = 1
 let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
 let g:syntastic_jslint_conf = " --forin"
 
 " NerdTree
