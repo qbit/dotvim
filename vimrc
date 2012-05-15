@@ -12,13 +12,16 @@ nmap <Leader>bc :BundleClean<CR>
 
 Bundle 'gmarik/vundle'
 
+Bundle 'tComment'
+Bundle 'current-func-info.vim'
+Bundle 'vim-json-bundle'
+
 Bundle 'tpope/vim-fugitive'
-Bundle 'vim-scripts/tComment'
+
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
-Bundle 'vim-scripts/current-func-info.vim'
+
 Bundle 'kien/ctrlp.vim'
-Bundle 'vim-scripts/vim-json-bundle'
 
 " Color
 if has('syntax')
@@ -34,8 +37,7 @@ if has('syntax')
 endif
 
 " File type stuff
-filetype indent on
-filetype plugin on
+filetype indent plugin on
 
 " Options
 set dir=~/.vim/swaps
@@ -66,7 +68,7 @@ set scrolloff=10
 let g:syntastic_enable_signs = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap "
+let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap"
 
 " NerdTree
 let g:NERDTreeChristmasTree = 1
