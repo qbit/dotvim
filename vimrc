@@ -1,6 +1,10 @@
 set nocompatible
 filetype off
 
+if has( 'win32' )
+	set runtimepath=~/Documents/GitHub/dotvim,$VIM,$VIMRUNTIME
+endif
+
 set rtp+=~/.vim/bundle/vundle/
 
 call vundle#rc()
