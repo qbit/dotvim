@@ -35,15 +35,8 @@ Bundle 'kien/ctrlp.vim'
 
 " Color
 if has('syntax')
-	if &t_Co == 256
-		syntax on
-		colorscheme BusyBee
-		set term=screen-256color
-		" colo inkpot
-		" let g:inkpot_black_background = 0
-	else 
-		colo pablo
-	endif
+	syntax on
+	colorscheme BusyBee
 endif
 
 " File type stuff
