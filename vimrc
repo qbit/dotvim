@@ -8,6 +8,7 @@ endif
 if has( 'gui_running' )
 	set guioptions-=T
 	set guioptions-=m
+	set vb t_vb=
 endif
 
 set rtp+=~/.vim/bundle/vundle/
