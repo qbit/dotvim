@@ -2,13 +2,16 @@ set nocompatible
 filetype off
 
 if has( 'win32' )
-	set runtimepath=~/Documents/GitHub/dotvim,$VIM,$VIMRUNTIME
 endif
 
 if has( 'gui_running' )
-	set guioptions-=T
-	set guioptions-=m
-	set vb t_vb=
+	if has( "gui_win32" )
+		set runtimepath=~/Documents/GitHub/dotvim,$VIM,$VIMRUNTIME
+		set guifont=Anonymous\ Pro:h10
+		set guioptions-=T
+		set guioptions-=m
+		set noeb
+	endif
 endif
 
 set rtp+=~/.vim/bundle/vundle/
