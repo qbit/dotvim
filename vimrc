@@ -2,13 +2,16 @@ set nocompatible
 filetype off
 
 if has( 'win32' )
-	set runtimepath=~/Documents/GitHub/dotvim,$VIM,$VIMRUNTIME
 endif
 
 if has( 'gui_running' )
-	set guioptions-=T
-	set guioptions-=m
-	set vb t_vb=
+	if has( "gui_win32" )
+		set runtimepath=~/Documents/GitHub/dotvim,$VIM,$VIMRUNTIME
+		set guifont=Anonymous\ Pro:h10
+		set guioptions-=T
+		set guioptions-=m
+		set noeb
+	endif
 endif
 
 set rtp+=~/.vim/bundle/vundle/
@@ -37,15 +40,8 @@ Bundle 'Lokaltog/vim-powerline'
 
 " Color
 if has('syntax')
-	if &t_Co == 256
-		syntax on
-		colorscheme BusyBee
-		set term=screen-256color
-		" colo inkpot
-		" let g:inkpot_black_background = 0
-	else 
-		colo pablo
-	endif
+	syntax on
+	colorscheme BusyBee
 endif
 
 " File type stuff
@@ -78,7 +74,7 @@ set scrolloff=10
 
 " Syntastic
 let g:syntastic_enable_signs = 1
-let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_open = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap --evil"
 
