@@ -33,6 +33,8 @@ Bundle 'scrooloose/nerdtree'
 
 Bundle 'kien/ctrlp.vim'
 
+Bundle 'Lokaltog/vim-powerline'
+
 " Color
 if has('syntax')
 	if &t_Co == 256
@@ -60,7 +62,7 @@ if ( v:version >= 700 )
 	set listchars=tab:▸\ ,eol:¬
 endif
 
-set ts=4 sts=4 sw=4 noexpandtab
+set ts=2 sts=2 sw=2 expandtab
 set laststatus=2
 "set statusline=%<%f%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
 set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=line:%l,col:%c\ %P
@@ -78,13 +80,16 @@ set scrolloff=10
 let g:syntastic_enable_signs = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap"
+let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap --evil"
 
 " NerdTree
 let g:NERDTreeChristmasTree = 1
 let g:NERDTreeCaseSensitiveSort = 1
 let g:NERDTreeQuietOnOpen = 1
 let g:NERDTreeShowBookmarks = 1 
+
+" PowerLine
+let g:Powerline_symbols = 'fancy'
 
 " Commands
 command! -bar -nargs=0 W  silent! exec "write !sudo tee % >/dev/null"  | silent! edit!
