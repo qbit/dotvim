@@ -40,8 +40,9 @@ Bundle 'Lokaltog/vim-powerline'
 
 " Color
 if has('syntax')
-	syntax on
-	colorscheme BusyBee
+  syntax on
+  set term=screen-256color
+  colorscheme BusyBee
 endif
 
 " File type stuff
@@ -85,7 +86,7 @@ let g:NERDTreeQuietOnOpen = 1
 let g:NERDTreeShowBookmarks = 1 
 
 " PowerLine
-let g:Powerline_symbols = 'fancy'
+" let g:Powerline_symbols = 'fancy'
 
 " Commands
 command! -bar -nargs=0 W  silent! exec "write !sudo tee % >/dev/null"  | silent! edit!
