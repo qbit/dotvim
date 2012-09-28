@@ -38,6 +38,10 @@ Bundle 'kien/ctrlp.vim'
 
 Bundle 'Lokaltog/vim-powerline'
 
+Bundle 'uggedal/go-vim'
+
+Bundle 'gregsexton/MatchTag'
+
 " Color
 if has('syntax')
   syntax on
