@@ -23,6 +23,9 @@ nmap <Leader>bi! :BundleInstall!<CR>
 nmap <Leader>bu :BundleInstall!<CR>
 nmap <Leader>bc :BundleClean<CR>
 
+nmap <Leader>gs :Gstatus<CR>
+nmap <Leader>gc :Gcommit<CR>
+
 Bundle 'gmarik/vundle'
 
 Bundle 'tComment'
