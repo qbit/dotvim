@@ -47,7 +47,11 @@ for ($green = 0; $green < 6; $green++) {
     for ($red = 0; $red < 6; $red++) {
 	for ($blue = 0; $blue < 6; $blue++) {
 	    $color = 16 + ($red * 36) + ($green * 6) + $blue;
-	    print "\x1b[48;5;${color}m  ";
+      if ( length(${color}) > 2 ) {
+        print "\x1b[48;5;${color}m ${color}";
+      } else {
+        print "\x1b[48;5;${color}m  ${color}";
+      }
 	}
 	print "\x1b[0m ";
     }
