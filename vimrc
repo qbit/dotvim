@@ -45,6 +45,8 @@ Bundle 'uggedal/go-vim'
 
 Bundle 'gregsexton/MatchTag'
 
+Bundle 'qbit/taskwarrior-vim'
+
 " Color
 if has('syntax')
   syntax on
@@ -69,7 +71,7 @@ endif
 set ts=2 sts=2 sw=2 expandtab
 set laststatus=2
 "set statusline=%<%f%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
-set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=line:%l,col:%c\ %P
+" set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=line:%l,col:%c\ %P
 set hlsearch
 set incsearch
 set showmatch
