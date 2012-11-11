@@ -28,6 +28,8 @@ nmap <Leader>gc :Gcommit<CR>
 
 Bundle 'gmarik/vundle'
 
+Bundle 'git@bitbucket.org:kisom/eink.vim.git'
+
 Bundle 'tComment'
 Bundle 'current-func-info.vim'
 Bundle 'vim-json-bundle'
@@ -51,9 +53,9 @@ Bundle 'qbit/taskwarrior-vim'
 if has('syntax')
   syntax on
   set term=screen-256color
-  colorscheme kyle
+  colorscheme eink
 else
-  colorscheme kyle
+  colorscheme eink
 endif
 
 " File type stuff
