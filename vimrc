@@ -51,7 +51,9 @@ Bundle 'qbit/taskwarrior-vim'
 if has('syntax')
   syntax on
   set term=screen-256color
-  colorscheme BusyBee
+  colorscheme kyle
+else
+  colorscheme kyle
 endif
 
 " File type stuff
