@@ -23,7 +23,12 @@ nmap <Leader>bi! :BundleInstall!<CR>
 nmap <Leader>bu :BundleInstall!<CR>
 nmap <Leader>bc :BundleClean<CR>
 
+nmap <Leader>gs :Gstatus<CR>
+nmap <Leader>gc :Gcommit<CR>
+
 Bundle 'gmarik/vundle'
+
+Bundle 'git@bitbucket.org:kisom/eink.vim.git'
 
 Bundle 'tComment'
 Bundle 'current-func-info.vim'
@@ -38,13 +43,19 @@ Bundle 'kien/ctrlp.vim'
 
 Bundle 'Lokaltog/vim-powerline'
 
-Bundle 'jceb/vim-orgmode'
+Bundle 'uggedal/go-vim'
+
+Bundle 'gregsexton/MatchTag'
+
+Bundle 'qbit/taskwarrior-vim'
 
 " Color
 if has('syntax')
   syntax on
   set term=screen-256color
-  colorscheme BusyBee
+  colorscheme eink
+else
+  colorscheme eink
 endif
 
 " File type stuff
@@ -64,7 +75,7 @@ endif
 set ts=2 sts=2 sw=2 expandtab
 set laststatus=2
 "set statusline=%<%f%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
-set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=line:%l,col:%c\ %P
+" set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=line:%l,col:%c\ %P
 set hlsearch
 set incsearch
 set showmatch
@@ -77,7 +88,7 @@ set scrolloff=10
 
 " Syntastic
 let g:syntastic_enable_signs = 1
-" let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_open = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap --evil"
 
