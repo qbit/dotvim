@@ -38,6 +38,8 @@ Bundle 'kien/ctrlp.vim'
 
 Bundle 'Lokaltog/vim-powerline'
 
+Bundle 'jceb/vim-orgmode'
+
 " Color
 if has('syntax')
   syntax on
