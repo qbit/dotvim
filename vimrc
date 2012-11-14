@@ -28,7 +28,7 @@ nmap <Leader>gc :Gcommit<CR>
 
 Bundle 'gmarik/vundle'
 
-Bundle 'git@bitbucket.org:kisom/eink.vim.git'
+Bundle 'https://qbit_@bitbucket.org/kisom/eink.vim.git'
 
 Bundle 'tComment'
 Bundle 'current-func-info.vim'
