@@ -53,6 +53,7 @@ Bundle 'qbit/taskwarrior-vim'
 if has('syntax')
   syntax on
   set term=screen-256color
+  set background=dark
   colorscheme BusyBee
 else
   colorscheme eink
@@ -67,6 +68,12 @@ set nolist
 set visualbell
 set mouse-=a
 set textwidth=72
+
+" Folding
+set foldopen+=search
+set foldminlines=1
+set foldmethod=expr
+let javaScript_fold = 1
 
 if ( v:version >= 700 ) 
 	set listchars=tab:▸\ ,eol:¬
