@@ -53,6 +53,7 @@ Bundle 'qbit/taskwarrior-vim'
 if has('syntax')
   syntax on
   set term=screen-256color
+  set background=dark
   colorscheme BusyBee
 else
   colorscheme eink
