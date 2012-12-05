@@ -122,6 +122,9 @@ noremap <Right> <NOP>
 noremap <Up>    <NOP>
 noremap <Down>  <NOP>
 
+noremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<cr>
+vnoremap <Space> zf
+
 au BufNewFile *.html 0read ~/.vim/skel/skel.html
 au BufNewFile *.pl 0read ~/.vim/skel/skel.pl
 au BufNewFile *.go 0read ~/.vim/skel/skel.go
