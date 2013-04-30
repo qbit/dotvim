@@ -34,6 +34,8 @@ Bundle 'tComment'
 Bundle 'current-func-info.vim'
 Bundle 'vim-json-bundle'
 
+Bundle 'airblade/vim-gitgutter'
+
 Bundle 'tpope/vim-fugitive'
 
 Bundle 'scrooloose/syntastic'
