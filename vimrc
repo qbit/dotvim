@@ -35,6 +35,7 @@ Bundle 'current-func-info.vim'
 Bundle 'vim-json-bundle'
 
 Bundle 'airblade/vim-gitgutter'
+Bundle 'marijnh/tern_for_vim'
 
 Bundle 'tpope/vim-fugitive'
 
