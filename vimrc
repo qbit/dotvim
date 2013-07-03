@@ -70,6 +70,7 @@ filetype indent plugin on
 set dir=~/.vim/swaps
 set nolist
 set visualbell
+set lazyredraw
 set mouse-=a
 " set tw=72
 
