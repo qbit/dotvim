@@ -45,7 +45,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 
 " Bundle 'Lokaltog/vim-powerline'
-Bundle 'bling/vim-arline'
+Bundle 'bling/vim-airline'
 
 Bundle 'uggedal/go-vim'
 
