@@ -71,7 +71,7 @@ set dir=~/.vim/swaps
 set nolist
 set visualbell
 set mouse-=a
-set textwidth=72
+" set tw=72
 
 " Folding
 set foldopen+=search
@@ -154,12 +154,12 @@ match OverLength /\%81v.*/
 let c_space_errors=1
 
 " text & mutt files
-au BufNewFile,BufRead /tmp/mutt*,/tmp/cvs*,*.txt set tw=72 noai noshowmatch
+au BufNewFile,BufRead /tmp/mutt*,/tmp/cvs*,*.txt set noai noshowmatch
 au BufNewFile,BufRead /tmp/mutt*,/tmp/cvs*,*.txt setlocal spell spelllang=en_us
 
-au BufNewFile,BufRead /private/var/*/mutt* set tw=72 noai noshowmatch
+au BufNewFile,BufRead /private/var/*/mutt* set noai noshowmatch
 au BufNewFile,BufRead /private/var/*/mutt* setlocal spell spelllang=en_us
 
 " git commits
-au BufNewFile,BufRead *.git/COMMIT_EDITMSG set tw=72 noai noshowmatch
+au BufNewFile,BufRead *.git/COMMIT_EDITMSG set noai noshowmatch
 au BufNewFile,BufRead *.git/COMMIT_EDITMSG setlocal spell spelllang=en_us
