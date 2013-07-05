@@ -44,7 +44,8 @@ Bundle 'scrooloose/nerdtree'
 
 Bundle 'kien/ctrlp.vim'
 
-Bundle 'Lokaltog/vim-powerline'
+" Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 
 Bundle 'uggedal/go-vim'
 
@@ -69,8 +70,9 @@ filetype indent plugin on
 set dir=~/.vim/swaps
 set nolist
 set visualbell
+set lazyredraw
 set mouse-=a
-set textwidth=72
+" set tw=72
 
 " Folding
 set foldopen+=search
@@ -107,6 +109,9 @@ let g:NERDTreeChristmasTree = 1
 let g:NERDTreeCaseSensitiveSort = 1
 let g:NERDTreeQuietOnOpen = 1
 let g:NERDTreeShowBookmarks = 1 
+
+let tern#is_show_argument_hints_enabled = 1
+let g:stop_autocomplete=0
 
 " PowerLine
 " let g:Powerline_symbols = 'fancy'
@@ -150,12 +155,12 @@ match OverLength /\%81v.*/
 let c_space_errors=1
 
 " text & mutt files
-au BufNewFile,BufRead /tmp/mutt*,/tmp/cvs*,*.txt set tw=72 noai noshowmatch
+au BufNewFile,BufRead /tmp/mutt*,/tmp/cvs*,*.txt set noai noshowmatch
 au BufNewFile,BufRead /tmp/mutt*,/tmp/cvs*,*.txt setlocal spell spelllang=en_us
 
-au BufNewFile,BufRead /private/var/*/mutt* set tw=72 noai noshowmatch
+au BufNewFile,BufRead /private/var/*/mutt* set noai noshowmatch
 au BufNewFile,BufRead /private/var/*/mutt* setlocal spell spelllang=en_us
 
 " git commits
-au BufNewFile,BufRead *.git/COMMIT_EDITMSG set tw=72 noai noshowmatch
+au BufNewFile,BufRead *.git/COMMIT_EDITMSG set noai noshowmatch
 au BufNewFile,BufRead *.git/COMMIT_EDITMSG setlocal spell spelllang=en_us
