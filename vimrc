@@ -53,6 +53,8 @@ Bundle 'gregsexton/MatchTag'
 
 Bundle 'qbit/taskwarrior-vim'
 
+Bundle 'mhinz/vim-startify'
+
 " Color
 if has('syntax')
   syntax on
@@ -79,6 +81,18 @@ set foldopen+=search
 set foldminlines=1
 set foldmethod=expr
 let javaScript_fold = 1
+
+let g:airline_enable_syntastic=1
+let g:airline_enable_fugitive=1
+let g:airline_theme='dark'
+
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_linecolumn_prefix = '¶ '
+let g:airline_paste_symbol = 'ρ'
+let g:airline_paste_symbol = 'Þ'
 
 if ( v:version >= 700 ) 
 	set listchars=tab:▸\ ,eol:¬
