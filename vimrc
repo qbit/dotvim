@@ -60,7 +60,8 @@ if has('syntax')
   syntax on
   set term=screen-256color
   set background=dark
-  colorscheme BusyBee
+  " colorscheme BusyBee
+  colorscheme coffee
 else
   colorscheme eink
 endif
