@@ -83,6 +83,7 @@ set foldminlines=1
 set foldmethod=expr
 let javaScript_fold = 1
 
+let g:airline#extensions#tabline#enabled=1
 let g:airline_enable_syntastic=1
 let g:airline_enable_fugitive=1
 let g:airline_theme='dark'
