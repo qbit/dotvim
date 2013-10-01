@@ -84,6 +84,7 @@ set foldmethod=expr
 let javaScript_fold = 1
 
 let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#whitespace#enabled=1
 let g:airline_enable_syntastic=1
 let g:airline_enable_fugitive=1
 let g:airline_theme='dark'
@@ -96,7 +97,7 @@ let g:airline_linecolumn_prefix = '¶ '
 let g:airline_paste_symbol = 'ρ'
 let g:airline_paste_symbol = 'Þ'
 
-if ( v:version >= 700 ) 
+if ( v:version >= 700 )
 	set listchars=tab:▸\ ,eol:¬
 endif
 
@@ -124,7 +125,7 @@ let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap -
 let g:NERDTreeChristmasTree = 1
 let g:NERDTreeCaseSensitiveSort = 1
 let g:NERDTreeQuietOnOpen = 1
-let g:NERDTreeShowBookmarks = 1 
+let g:NERDTreeShowBookmarks = 1
 
 let tern#is_show_argument_hints_enabled = 1
 let g:stop_autocomplete=0
