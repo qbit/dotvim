@@ -34,6 +34,8 @@ Bundle 'tComment'
 Bundle 'current-func-info.vim'
 Bundle 'vim-json-bundle'
 
+Bundle 'farseer90718/vim-taskwarrior'
+
 Bundle 'airblade/vim-gitgutter'
 Bundle 'marijnh/tern_for_vim'
 
@@ -53,7 +55,7 @@ Bundle 'gregsexton/MatchTag'
 
 Bundle 'qbit/taskwarrior-vim'
 
-Bundle 'mhinz/vim-startify'
+Bundle 'qbit/vim-startify'
 
 " Color
 if has('syntax')
@@ -81,7 +83,7 @@ set mouse-=a
 set foldopen+=search
 set foldminlines=1
 set foldmethod=expr
-let javaScript_fold = 1
+" let javaScript_fold = 1
 
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#whitespace#enabled=1
@@ -96,6 +98,8 @@ let g:airline_right_sep = '◀'
 let g:airline_linecolumn_prefix = '¶ '
 let g:airline_paste_symbol = 'ρ'
 let g:airline_paste_symbol = 'Þ'
+
+let g:startify_custom_cmd = ['   [w]  Task Warrior', 'nnoremap <buffer><silent> w :TW<cr>']
 
 if ( v:version >= 700 )
 	set listchars=tab:▸\ ,eol:¬
@@ -114,6 +118,8 @@ set nu
 set fileformats+=mac
 set ai
 set scrolloff=10
+
+let g:gitgutter_realtime = 0
 
 " Syntastic
 let g:syntastic_enable_signs = 1
