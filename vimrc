@@ -101,6 +101,7 @@ let g:airline_right_sep = '◀'
 let g:airline_linecolumn_prefix = '¶ '
 let g:airline_paste_symbol = 'ρ'
 let g:airline_paste_symbol = 'Þ'
+let g:airline_readonly_symbol = 'r'
 
 let g:startify_custom_cmd = ['   [w]  Task Warrior', 'nnoremap <buffer><silent> w :TW<cr>']
 
