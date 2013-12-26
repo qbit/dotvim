@@ -34,15 +34,18 @@ Bundle 'tComment'
 Bundle 'current-func-info.vim'
 Bundle 'vim-json-bundle'
 
+Bundle 'wlangstroth/vim-racket'
+
 Bundle 'farseer90718/vim-taskwarrior'
 
 Bundle 'airblade/vim-gitgutter'
-Bundle 'marijnh/tern_for_vim'
+" Bundle 'marijnh/tern_for_vim'
 
 Bundle 'tpope/vim-fugitive'
 
 Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdtree'
+" Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-vinegar'
 
 Bundle 'kien/ctrlp.vim'
 
@@ -126,12 +129,6 @@ let g:syntastic_enable_signs = 1
 "let g:syntastic_check_on_open = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_javascript_jslint_conf = " --white --plusplus --nomen --newcap --evil"
-
-" NerdTree
-let g:NERDTreeChristmasTree = 1
-let g:NERDTreeCaseSensitiveSort = 1
-let g:NERDTreeQuietOnOpen = 1
-let g:NERDTreeShowBookmarks = 1
 
 let tern#is_show_argument_hints_enabled = 1
 let g:stop_autocomplete=0
