@@ -159,7 +159,8 @@ au BufNewFile *.pl 0read ~/.vim/skel/skel.pl
 au BufNewFile *.go 0read ~/.vim/skel/skel.go
 
 nmap <leader>l :set wrap!<CR>
-nmap <leader>s :set spell!<CR>
+nmap <leader>sp :set spell!<CR>
+nmap <leader>s :%s/\s\+$//g<CR>
 nmap <leader>1 :NERDTree<CR>
 nmap <leader>2 :set list!<CR>
 nmap <leader>3 :set nu!<CR>
