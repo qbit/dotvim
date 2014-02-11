@@ -39,7 +39,7 @@ Bundle 'wlangstroth/vim-racket'
 Bundle 'farseer90718/vim-taskwarrior'
 
 Bundle 'airblade/vim-gitgutter'
-" Bundle 'marijnh/tern_for_vim'
+Bundle 'marijnh/tern_for_vim'
 
 Bundle 'tpope/vim-fugitive'
 
